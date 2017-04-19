@@ -1,4 +1,8 @@
-const logger = require('./logger')
-const duvidaCruel = require('./duvidaCruel')
+import './estilo.css'
+import 'react'
 
-logger.info('Usando o padrão CommonJS!')
+export default props =>{
+    <h1>Olá</h1>
+}
+
+console.log('Funcionou!')
